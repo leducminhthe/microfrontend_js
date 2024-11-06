@@ -1,9 +1,11 @@
 import React, { Suspense } from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
 
-const MicroFrontend1 = React.lazy(() =>
-  import('microfrontend1/App').catch(() => ({
-    default: () => <div>Microfrontend1 is not available</div>,
+const Page1 = React.lazy(() =>
+  import('microfrontend1/Pages')
+  .then(module => ({ default: module.Page1 }))
+  .catch(() => ({
+    default: () => <div>Microfrontend is not available</div>,
   }))
 );
 
@@ -12,7 +14,7 @@ const Colors = () => {
     <>
       <ErrorBoundary FallbackComponent={<div>Something went wrong while loading MicroFrontend1!</div>}>
         <Suspense fallback={<div>Loading...</div>}>
-          <MicroFrontend1 test={1232131221111} />
+          <Page1 test={1232131221111} />
         </Suspense>
       </ErrorBoundary>
     </>

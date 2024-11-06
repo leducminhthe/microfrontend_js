@@ -1,2 +1,1 @@
-declare module 'microfrontend1/App';
-declare module 'sharedUtils/Utils';
+declare module 'microfrontend1/Pages';

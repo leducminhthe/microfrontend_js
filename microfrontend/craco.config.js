@@ -22,13 +22,12 @@ module.exports = {
           name: 'container',
           remotes: {
             microfrontend1: 'microfrontend1@http://localhost:8081/remoteEntry.js',
-            sharedUtils: 'sharedUtils@http://localhost:8082/remoteEntry.js',
           },
-          shared: {
-            react: { singleton: true, eager: true, strictVersion: true, requiredVersion: "^18.3.1" },
-            "react-dom": { singleton: true, eager: true, strictVersion: true, requiredVersion: "^18.3.1" },
-            antd: { singleton: true, strictVersion: true, },
-          },
+          // shared: {
+          //   react: { singleton: true, eager: true, strictVersion: true, requiredVersion: "^18.3.1" },
+          //   "react-dom": { singleton: true, eager: true, strictVersion: true, requiredVersion: "^18.3.1" },
+          //   antd: { singleton: true, strictVersion: true, eager: true },
+          // },
         }),
         new HtmlWebpackPlugin({
           template: './public/index.html',
