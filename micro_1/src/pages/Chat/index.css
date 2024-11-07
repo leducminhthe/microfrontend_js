@@ -1,0 +1,541 @@
+.chat-menu .chat-menu-list .chat-menu-list-item.selected,
+.chat-menu .chat-menu-list .chat-menu-list-item:hover {
+  background-color: #f5f5f5;
+}
+
+.chat-menu .chat-menu-list {
+  height: calc(100vh - 60px - 76px - 25px - 70px - 30px);
+  overflow: auto;
+  position: relative;
+}
+
+.chat-menu .chat-menu-list .chat-menu-list-item:not(.last) {
+  border-bottom: 1px solid #e6ebf1;
+}
+
+.chat-menu .chat-menu-list .chat-menu-list-item {
+  transition: all .3s ease-in-out;
+  padding: 13px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chat-menu .chat-menu-toolbar {
+  height: 60px;
+  border-bottom: 1px solid #e6ebf1;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.chat-menu {
+  width: 100%;
+}
+
+.css-efriro>.ant-card-body {
+  display: flex;
+  padding: 0px;
+}
+
+.chat-menu .chat-menu-toolbar .ant-input-affix-wrapper {
+  border: 0;
+}
+
+:where(.css-10jqpyg).ant-input-affix-wrapper {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 11px;
+  color: #455560;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6ebf1;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+:where(.css-10jqpyg).ant-card {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #455560;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+:where(.css-10jqpyg).ant-input-affix-wrapper::before {
+  width: 0;
+  visibility: hidden;
+  content: "\a0";
+}
+
+:where(.css-10jqpyg).ant-input-affix-wrapper {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  min-width: 0;
+  padding: 8px 11px;
+  color: #455560;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6ebf1;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.chat-menu .chat-menu-toolbar .ant-input-affix-wrapper .ant-input-prefix {
+  display: flex;
+  align-items: center;
+  color: rgba(114, 132, 154, .4);
+}
+
+:where(.css-10jqpyg).ant-input-affix-wrapper .ant-input-prefix {
+  margin-inline-end: 4px;
+}
+
+.dir-ltr .mr-2,
+.dir-ltr .mx-2 {
+  margin-right: .5rem !important;
+}
+
+.font-size-lg {
+  font-size: 21px !important;
+}
+
+.anticon {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:where(.css-10jqpyg).ant-layout,
+:where(.css-10jqpyg).ant-layout * {
+  box-sizing: border-box;
+}
+
+.anticon svg {
+  display: inline-block;
+}
+
+.anticon>* {
+  line-height: 1;
+}
+
+.chat-menu .chat-menu-toolbar .ant-input-affix-wrapper .ant-input {
+  font-size: 21px;
+}
+
+:where(.css-10jqpyg).ant-input-affix-wrapper>input.ant-input {
+  padding: 0;
+  font-size: inherit;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+:where(.css-10jqpyg).ant-avatar-image {
+  background: transparent;
+}
+
+:where(.css-10jqpyg).ant-avatar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 38px;
+  list-style: none;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  background: rgba(69, 85, 96, 0.25);
+  border: 1px solid transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+:where(.css-10jqpyg).ant-avatar>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dir-ltr .ml-2,
+.dir-ltr .mx-2,
+.dir-rtl .mr-2,
+.dir-rtl .mx-2 {
+  margin-left: .5rem !important;
+}
+
+.avatar-status-name {
+  font-weight: 500;
+  color: #1a3353;
+}
+
+.avatar-status {
+  position: relative;
+}
+
+.chat-menu .chat-menu-list .chat-menu-list-item .avatar-status .avatar-status-subtitle {
+  width: 166px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-muted {
+  color: rgba(114, 132, 154, .7) !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.chat-menu .chat-menu-list .chat-menu-list-item .chat-menu-list-item-time {
+  font-size: 12px;
+  color: rgba(114, 132, 154, .7);
+  font-weight: 500;
+}
+
+:where(.css-10jqpyg).ant-badge.ant-badge-not-a-wrapper:not(.ant-badge-status) {
+  vertical-align: middle;
+}
+
+:where(.css-10jqpyg).ant-badge {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #455560;
+  font-size: 14px;
+  line-height: 1;
+  list-style: none;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+
+.chat .chat-content {
+  height: 100%;
+}
+
+.css-j09y7o {
+  min-height: calc(-182px + 100vh);
+  width: 100%;
+  padding: 0px;
+}
+
+.chat .chat-content .chat-content-header {
+  height: 60px;
+  border-bottom: 1px solid #e6ebf1;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+:where(.css-10jqpyg).ant-layout,
+:where(.css-10jqpyg).ant-layout * {
+  box-sizing: border-box;
+}
+
+.chat .chat-content .chat-content-body {
+  height: calc(100vh - 60px - 76px - 25px - 70px - 60px - 30px);
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.chat .chat-content .chat-content-body .msg {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.dir-ltr .mr-2,
+.dir-ltr .mx-2 {
+  margin-right: .5rem !important;
+}
+
+.chat .chat-content .chat-content-body .msg.msg-sent {
+  justify-content: flex-end;
+}
+
+.chat .chat-content .chat-content-body .msg .bubble {
+  max-width: 75%;
+  position: relative;
+}
+
+.chat .chat-content .chat-content-body .msg.msg-recipient .bubble .bubble-wrapper {
+  background: #ededed;
+  color: #1a3353;
+}
+
+.chat .chat-content .chat-content-body .msg .bubble .bubble-wrapper {
+  padding: 10px 15px;
+  border-radius: .625rem;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.chat .chat-content .chat-content-body .msg.msg-sent .bubble .bubble-wrapper {
+  background-color: #3e79f7;
+  color: #fff;
+}
+
+.chat .chat-content .chat-content-body .msg.datetime {
+  padding: 15px 0;
+  margin-bottom: 0;
+  font-size: 11px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+:where(.css-10jqpyg).ant-divider-horizontal.ant-divider-with-text {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+  color: #455560;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-align: center;
+  border-block-start: 0 rgba(5, 5, 5, 0.06);
+}
+
+:where(.css-10jqpyg).ant-divider-horizontal.ant-divider-with-text::before,
+:where(.css-10jqpyg).ant-divider-horizontal.ant-divider-with-text::after {
+  position: relative;
+  width: 50%;
+  border-block-start: 1px solid transparent;
+  border-block-start-color: inherit;
+  border-block-end: 0;
+  transform: translateY(50%);
+  content: '';
+}
+
+.chat .chat-content .chat-content-body .msg.datetime .ant-divider-inner-text {
+  font-size: 12px;
+}
+
+:where(.css-10jqpyg).ant-divider .ant-divider-inner-text {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+.chat .chat-content .chat-content-footer {
+  height: 76px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+:where(.css-10jqpyg).ant-form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #455560;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+:where(.css-10jqpyg)[class^="ant-form"] [class^="ant-form"],
+:where(.css-10jqpyg)[class*=" ant-form"] [class^="ant-form"],
+:where(.css-10jqpyg)[class^="ant-form"] [class*=" ant-form"],
+:where(.css-10jqpyg)[class*=" ant-form"] [class*=" ant-form"] {
+  box-sizing: border-box;
+}
+
+:where(.css-10jqpyg).ant-form-item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #455560;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  margin-bottom: 24px;
+  vertical-align: top;
+}
+
+:where(.css-10jqpyg).ant-row {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 0;
+}
+
+:where(.css-10jqpyg).ant-form-item .ant-form-item-control:first-child:not([class^="'ant-col-'"]):not([class*="' ant-col-'"]) {
+  width: 100%;
+}
+
+:where(.css-10jqpyg).ant-form-horizontal .ant-form-item-control {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+:where(.css-10jqpyg).ant-form-item .ant-form-item-control {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+:where(.css-10jqpyg).ant-form-item .ant-form-item-control-input {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+}
+
+:where(.css-10jqpyg).ant-form-item .ant-form-item-control-input-content {
+  flex: auto;
+  max-width: 100%;
+}
+
+:where(.css-10jqpyg).ant-input-affix-wrapper>input.ant-input {
+  padding: 0;
+  font-size: inherit;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}
+
+:where(.css-10jqpyg).ant-input:placeholder-shown {
+  text-overflow: ellipsis;
+}
+
+:where(.css-10jqpyg).ant-input-affix-wrapper .ant-input-suffix {
+  margin-inline-start: 4px;
+}
+
+.dir-ltr .mr-3,
+.dir-ltr .mx-3 {
+  margin-right: 1rem !important;
+}
+
+.text-dark {
+  color: #1a3353 !important;
+}
+
+:where(.css-10jqpyg) a {
+  color: #3e79f7;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  -webkit-text-decoration-skip: objects;
+}
+
+[role=button],
+a,
+area,
+button,
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+  touch-action: manipulation;
+}
+
+:where(.css-10jqpyg).ant-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 8px 11px;
+  color: #455560;
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  background-color: #ffffff;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e6ebf1;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+:where(.css-10jqpyg).ant-btn-primary {
+  color: #fff;
+  background-color: #3e79f7;
+  box-shadow: 0 2px 0 rgba(5, 122, 255, 0.06);
+}
+
+:where(.css-10jqpyg).ant-btn {
+  font-size: 14px;
+  height: 40px;
+  padding: 8px 15px;
+  border-radius: 10px;
+}
+
+:where(.css-10jqpyg).ant-btn {
+  outline: none;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
+  touch-action: manipulation;
+  line-height: 1.5714285714285714;
+  color: #455560;
+}
