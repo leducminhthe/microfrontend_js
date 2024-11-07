@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 
-function Page2() {
+function Chat() {
   return (
     <div>
       <main class="ant-layout-content h-100 css-10jqpyg">
@@ -449,4 +449,4 @@ function Page2() {
   );
 }
 
-export default Page2;
+export default Chat;
