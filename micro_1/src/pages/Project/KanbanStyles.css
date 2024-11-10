@@ -1,11 +1,15 @@
-/* KanbanStyles.css */
-.custom-kanban-card {
-  border: 2px solid #4CAF50;
-  background-color: #e8f5e9;
-  padding: 10px;
-  border-radius: 8px;
+.e-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+  transition: 0.5s;
+  border-radius: 10px !important;
 }
-
-.custom-kanban-card-header {
-  font-weight: bold;
+.e-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+  transition: 0.5s;
+}
+.task-wrapper {
+  padding: 5px 10px;
+}
+.e-header-title div {
+  width: 100%;
 }
