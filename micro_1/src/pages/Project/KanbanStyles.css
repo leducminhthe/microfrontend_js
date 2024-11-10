@@ -1,0 +1,11 @@
+/* KanbanStyles.css */
+.custom-kanban-card {
+  border: 2px solid #4CAF50;
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.custom-kanban-card-header {
+  font-weight: bold;
+}

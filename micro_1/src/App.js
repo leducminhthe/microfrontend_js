@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './App.css';
 
-import {Page1, Chat, Project} from './pages/index';
+import {Page1, Chat, Project, ProjectKanban} from './pages/index';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Route path="/page1" element={<Page1 />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/project-kanban" element={<ProjectKanban />} />
       </Routes>
     </Router>
   );
